@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Titulo -->
+    <title>Generador de Mensajes</title>
+    <!-- Autor -->
+    <meta name="author" content="Catherine Solarte" />
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="./assets/favicon/favicon-32x32.png"
+    />
+    <!-- estilo -->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+
+  <body>
+    <main>
+      <section>
+        <h1>Generador de Mensajes Personalizados</h1>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" placeholder="Ingresa tu nombre" />
+
+        <label for="momentoDelDia">Momento del Día:</label>
+        <select id="momentoDelDia">
+          <option value="mañana">Mañana</option>
+          <option value="tarde">Tarde</option>
+        </select>
+
+        <button id="generarBtn">Generar Mensaje</button>
+
+        <p id="mensajeResultado"></p>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        © 2024 Generando mensajes - Catherine Solarte. Todos los derechos
+        reservados.
+      </p>
+    </footer>
+
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
